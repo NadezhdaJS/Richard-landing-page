@@ -1,24 +1,23 @@
-
 *,
 *::before,
 *::after {
-	padding: 0;
-	margin: 0;
-	border: 0;
-	box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 ul,
 ol,
 li {
-	list-style: none;
+    list-style: none;
 }
 img {
-	vertical-align: top;
+    vertical-align: top;
 }
 
 h1,
@@ -27,42 +26,42 @@ h3,
 h4,
 h5,
 h6 {
-	font-weight: inherit;
-	font-size: inherit;
+    font-weight: inherit;
+    font-size: inherit;
 }
 
 html,
 body {
-	height: 100%;
-	line-height: 1;
+    height: 100%;
+    line-height: 1;
 }
 
 body {
     font-family: Gothic A1;
     font-size: 16px;
     line-height: 30px;
-    color: #6B6B6B;
+    color: #6b6b6b;
 }
 
 .wrapper {
     overflow: hidden;
-	display: flex;
-	flex-direction: column;
-	min-height: 100%;
- }
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
 
- [class*="__container"] {
-	max-width: 1296px;
-	margin: 0px auto;
-	padding: 0px 15px;
+[class*="__container"] {
+    max-width: 1296px;
+    margin: 0px auto;
+    padding: 0px 15px;
 }
 
 .header {
-    position: absolute; 
-	width: 100%;
-	top: 0;
-	left: 0;
-	z-index: 50;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
 }
 
 .header__container {
@@ -76,7 +75,7 @@ body {
 
 .menu {
     display: flex;
-	justify-content: flex-end;
+    justify-content: flex-end;
 }
 
 .menu__list {
@@ -84,11 +83,11 @@ body {
 }
 
 .menu__item {
-    margin:0px 30px 0px 0px;
+    margin: 0px 30px 0px 0px;
 }
 
 .link__menu {
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .link__menu:hover {
@@ -96,19 +95,19 @@ body {
 }
 
 .main-title {
-    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+    background: linear-gradient(287.15deg, #450e4b 0%, #3c0c41 24.48%, rgba(207, 0, 99, 0) 100%), #cf0063;
     border-radius: 0px;
     height: 800px;
-    position: relative;    
+    position: relative;
 }
 
 .main-title__container {
     padding: 20px 15px 50px 15px;
-	display: flex;
-	align-items: center;
-	flex-wrap: wrap;
-	position: relative;
-    max-width: 1152px;   
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 1152px;
 }
 
 .text__main-title {
@@ -131,7 +130,7 @@ h1 {
 .h2__main-title {
     font-size: 30px;
     line-height: 44px;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-bottom: 25px;
 }
 
@@ -139,7 +138,7 @@ h1 {
     display: inline-block;
     text-align: center;
     vertical-align: middle;
-    background: #FC0A7E;
+    background: #fc0a7e;
     border-radius: 3px;
     font-size: 16px;
     line-height: 26px;
@@ -149,10 +148,10 @@ h1 {
 }
 
 .img__main-title {
-    width: 625px; 
-    position: absolute; 
+    width: 625px;
+    position: absolute;
     right: -90px;
-    padding-top: 20px;      
+    padding-top: 20px;
 }
 
 .arrow__main-title {
@@ -165,7 +164,7 @@ h1 {
 .black-section {
     margin: 0 auto;
     text-align: center;
-    background-color: #1B1B1B;
+    background-color: #1b1b1b;
     padding-top: 100px;
     position: relative;
     width: 100%;
@@ -176,7 +175,7 @@ h1 {
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #A8A8A8;
+    color: #a8a8a8;
 }
 
 .subtitle__black-section {
@@ -190,7 +189,7 @@ h1 {
 }
 
 .title__black-section {
-    color: #FFFFFF;
+    color: #ffffff;
     margin-bottom: 55px;
     max-width: 607px;
     margin: 0 auto;
@@ -211,14 +210,14 @@ h1 {
 }
 
 .img__huge-text-block {
-    max-width: 558px;   
+    max-width: 558px;
 }
 
 .huge-text-block {
     display: flex;
     justify-content: center;
     margin-bottom: 160px;
-    align-items: center;  
+    align-items: center;
 }
 
 .title__huge-text-block {
@@ -234,7 +233,7 @@ h1 {
 }
 
 .futures {
-  margin-bottom: 160px;   
+    margin-bottom: 160px;
 }
 
 .flex__futures {
@@ -270,7 +269,7 @@ h1 {
 
 .flex__numbers {
     align-content: center;
-    margin: 0 80px ;
+    margin: 0 80px;
 }
 
 .numerals__numbers {
@@ -292,7 +291,7 @@ h1 {
 .links__burgers {
     font-weight: 700;
     text-decoration-line: underline;
-    color: #6B6B6B;
+    color: #6b6b6b;
 }
 
 .quote {
@@ -311,7 +310,7 @@ h1 {
     max-width: 700px;
     font-size: 24px;
     line-height: 167%;
-    color: #6B6B6B;
+    color: #6b6b6b;
     margin-top: 63px;
     margin-bottom: 30px;
     text-align: center;
@@ -321,22 +320,24 @@ h1 {
     display: flex;
     margin-bottom: 80px;
 }
+
 .name {
     font-size: 16px;
     line-height: 30px;
-    color: #6B6B6B;
+    color: #6b6b6b;
 }
 
 .dash {
     width: 30px;
     height: 1px;
-    background: #D3D3D3;
-    margin: 14px ;
+    background: #d3d3d3;
+    margin: 14px;
 }
+
 .name_bold {
     font-size: 16px;
     line-height: 30px;
-    color: #6B6B6B;
+    color: #6b6b6b;
     font-weight: 700;
 }
 
@@ -364,8 +365,8 @@ h1 {
 }
 
 .ready {
-    background: linear-gradient(276.18deg, #6E28B1 0%, rgba(0, 0, 0, 0) 100%), #FC0A7E;
-    /*! background-image: url(/img/Group.png); */
+    background: url("img/waves.png") repeat-y, linear-gradient(to left, #6e28b1, #fc0a7e), #fc0a7e;
+    background-size: cover;
     border-radius: 0px;
     height: 474px;
     text-align: center;
@@ -375,12 +376,11 @@ h1 {
 }
 
 .title_white {
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
-
 .button_transparent {
-    border: 1px solid #B04BB3;
+    border: 1px solid #b04bb3;
     background: none;
     margin-left: 10px;
 }
@@ -394,7 +394,7 @@ h1 {
 
 .get-updates {
     text-align: center;
-    background-color: #1B1B1B;
+    background-color: #1b1b1b;
     height: 463px;
     display: flex;
     flex-direction: column;
@@ -403,15 +403,15 @@ h1 {
 }
 
 .form {
-    color: #1C1C1C;
+    color: #1c1c1c;
     font-size: 16px;
     line-height: 26px;
-    margin-top: 45px;    
+    margin-top: 45px;
 }
 
 .input {
-    background: #FFFFFF;
-    box-shadow: 0px 0px 0px #FC0A7E;
+    background: #ffffff;
+    box-shadow: 0px 0px 0px #fc0a7e;
     border-radius: 3px 0px 0px 3px;
     height: 70px;
     width: 465px;
@@ -422,19 +422,18 @@ h1 {
 }
 
 .email-button {
-    color: #1C1C1C;
+    color: #1c1c1c;
     line-height: 26px;
     height: 70px;
-    position: absolute; 
+    position: absolute;
     right: 517px;
     border-radius: 0px 3px 3px 0px;
     cursor: pointer;
 }
 
-
 .footer {
     text-align: center;
-    background-color: #1B1B1B;
+    background-color: #1b1b1b;
     padding-bottom: 68px;
 }
 
@@ -451,7 +450,7 @@ h1 {
 .a__footer {
     font-size: 12px;
     line-height: 20px;
-    color: #6B6B6B;
+    color: #6b6b6b;
 }
 
 .text__get-updates {
