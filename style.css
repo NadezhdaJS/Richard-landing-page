@@ -168,6 +168,8 @@ h1 {
     padding-top: 100px;
     position: relative;
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .subtitle {
@@ -263,13 +265,16 @@ h1 {
 .box__numbers {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+}
+
+.flex__numbers:not(:last-child) {
+    margin-right: 180px;
 }
 
 .flex__numbers {
     align-content: center;
-    margin: 0 80px;
 }
 
 .numerals__numbers {
@@ -357,6 +362,10 @@ h1 {
     width: 7px;
     height: 7px;
     background: rgba(34, 34, 34, 0.4);
+}
+
+.logos {
+    max-width: 100%;
 }
 
 .last-pic {
@@ -455,4 +464,53 @@ h1 {
 
 .text__get-updates {
     margin-top: 25px;
+}
+
+/* обычно media пишут внизу, в самом конце 
+начинаем с header
+
+max-width: 1199px - эта запись говорит что все правила в блоке будут использованы только если ширина окна меньше или равно 1199px (можно любое значение)
+?А это размер чего. Планшет? Мелкий комп?
+это просто пример. обычно в тз указывают какие будут точки, типа 1600 1360 1200 992 768 и тп. у меня на основной работе дизайнер делала 3 макета: 
+пк (все что от 992px) планшет (768 - 991) и мобилы (0 - 767)
+мы сейчас можем так же попробовать
+Ну ты же знаешь размеры стандартные?
+го го го. болтаем тут)
+сначала надо глянуть на каком разрешении все сыпется
+на любом))
+
+опытным путем определил что на 1059 начинает сыпаться верх, поэтому указал 1059
+выставь себе в браузере ширину 1050
+выставила. Мы же под планшеты? горизонтальные
+
+*/
+
+@media (max-width: 1059px) {
+    [class*="__container"] {
+        max-width: 900px;
+    }
+
+    .flex__numbers:not(:last-child) {
+        margin-right: 80px;
+    }
+
+    .h2__main-title {
+        font-size: 21px;
+    }
+
+    h1 {
+        font-size: 71px;
+    }
+    
+    .block-of-text__huge-text-block {
+        margin: 0; 
+    }
+
+    .block-of-text-right__huge-text-block {
+        margin: 0;
+    }
+
+    .block-of-text {
+        padding: 0 29px 0 28px;
+    }
 }
