@@ -411,7 +411,42 @@ h1 {
     justify-content: center;
 }
 
-.form {
+.form {    
+    width: 465px;
+    color: #1c1c1c;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    background: #ffffff;
+    box-shadow: 0px 0px 0px #fc0a7e;
+    border-radius: 3px 0px 0px 3px;
+    height: 70px;
+    width: 311px;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.email-button {
+    width: 154px;
+    color: #1c1c1c;
+    line-height: 26px;
+    height: 70px;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+
+/* .form {
+    position: relative;
+    width: 465px;
+
     color: #1c1c1c;
     font-size: 16px;
     line-height: 26px;
@@ -423,22 +458,25 @@ h1 {
     box-shadow: 0px 0px 0px #fc0a7e;
     border-radius: 3px 0px 0px 3px;
     height: 70px;
-    width: 465px;
+    width: 311px;
     padding: 20px;
     font-size: 16px;
     line-height: 26px;
-    position: relative;
+
+    display: block;
 }
 
 .email-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 154px;
     color: #1c1c1c;
     line-height: 26px;
     height: 70px;
-    position: absolute;
-    right: 517px;
-    border-radius: 0px 3px 3px 0px;
+    border-radius: 6px;
     cursor: pointer;
-}
+} */
 
 .footer {
     text-align: center;
